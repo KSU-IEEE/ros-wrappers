@@ -80,10 +80,13 @@ catkin_package(
 include_directories(
     include
     ${catkin_INCLUDE_DIRS}
+    ${controllers_path}/include
 )
 
 # add any .cpp file paths here
 set(SRCS 
+  src/a_star_controller.cpp
+  src/position_update.cpp
 )
 
 if ( NOT ("${SRCS}" STREQUAL "") )
