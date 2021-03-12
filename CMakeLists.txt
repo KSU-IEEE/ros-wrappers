@@ -86,12 +86,12 @@ include_directories(
 # add any .cpp file paths here
 set(SRCS 
   src/a_star_controller.cpp
-  src/position_update.cpp
 )
 
 if ( NOT ("${SRCS}" STREQUAL "") )
   set(LIBS 
     ${catkin_LIBRARIES}
+    controllers
   )
   message(STATUS "${PROJECT_NAME} library compiling: ${SRCS}")
   add_library(ros-wrappers ${SRCS})

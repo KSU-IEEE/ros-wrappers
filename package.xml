@@ -25,6 +25,6 @@
 
     <!-- export nodelets -->
     <export>
-
+        <nodelet plugin="${prefix}/plugins/a_star_plugin.xml"/>
     </export>
 </package>

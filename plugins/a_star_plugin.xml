@@ -1,0 +1,8 @@
+<library path="lib/libros-wrappers">
+    <class name="ros-wrappers/a_star_controller" type="controller_nodes::aStarNodelet"
+        base_class_type="nodelet::Nodelet">
+    <description>
+        the wrapper for the a_star_path planner
+    </description>
+    </class>
+</library>

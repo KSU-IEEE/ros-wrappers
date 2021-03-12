@@ -1,0 +1,7 @@
+<launch>
+<node pkg="nodelet"
+    type="nodelet" name="controller"
+    args="standalone ros-wrappers/a_star_controller"
+    respawn="true" output="screen">
+</node>
+</launch>
